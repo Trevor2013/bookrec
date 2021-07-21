@@ -1,7 +1,6 @@
 import os
 import webbrowser
 from threading import Timer
-from flask_bcrypt import Bcrypt
 from flask_login import logout_user, current_user, login_required, login_manager, LoginManager, login_user
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField

@@ -35,7 +35,6 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 # Read in user rating data from ratings.csv
 user_ratings = pd.read_csv("Data/ratings.csv")
-print(len(user_ratings))
 user_ratings['user_id'] = user_ratings['user_id'].astype(str)
 
 # Read in book data
