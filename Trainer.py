@@ -107,6 +107,7 @@ user_ratings = user_ratings.sample(n=500000)
 id_ratings_count = books[["average_rating", "ratings_count"]]
 id_with_clusters = books[["book_id"]]
 
+# Initialize K-means clustering algorithm
 kmeans = KMeans(
     init="random",
     n_clusters=4,
@@ -115,6 +116,7 @@ kmeans = KMeans(
     random_state=42
 )
 
+# Apply K-means clustering to average rating vs ratings count data
 kmeans.fit(id_ratings_count)
 
 identified_clusters = kmeans.fit_predict(id_ratings_count)
@@ -122,6 +124,7 @@ data_with_clusters = id_ratings_count.copy()
 data_with_clusters['Cluster'] = identified_clusters
 id_with_clusters['Cluster'] = identified_clusters
 
+#Plot ratings count vs average rating with clusters shown
 plt.scatter(data_with_clusters['ratings_count'], data_with_clusters['average_rating'], c=data_with_clusters['Cluster'],
             cmap='rainbow')
 plt.title('Average Rating vs. Number of Ratings for book - K-means Clustering')
@@ -190,25 +193,14 @@ def get_author(id):
     return author
 
 
-# Obtain dataset
-reader = Reader(rating_scale=(1, 5))
-data = Dataset.load_from_df(user_ratings[['user_id', 'book_id', 'rating']], reader)
-train, test = train_test_split(data, test_size=0.25)
-
-# Initialize Singular Value Decomposition algorithm and train on training data
-algo = SVD()
-print("training...")
-algo.fit(train)
-print("complete")
-full_data_trainset = data.build_full_trainset()
 
 
 # Function to return top 10 predicted books
 def prediction(id, full_rating):
     predictions = []
 
-    # This section of code manipulates the data to provide more useful ratings.  The standard deviation is calculated and
-    # ratings more than 2.25 standard deviations away are discarded.  This value was determined through testing.
+    # This section of code manipulates the data to provide more useful ratings.  The standard deviation is calculated
+    # and ratings more than 2.25 standard deviations away are discarded.  This value was determined through testing.
     rating_std = books['average_rating'].std()
     rating_mean = books['average_rating'].mean()
     rating_max = rating_mean + (2.25 * rating_std)
@@ -221,10 +213,20 @@ def prediction(id, full_rating):
     last8 = int(repr(t)[-8])
     np.random.seed(last8)
 
-    # Obtain random permutation of books and sample 250 books for ratings.  250 was chosen because it provides excellent
-    # speed for the prediction algorithm and will also provide books the user likely has not seen before.
+    # Obtain random permutation of books
     shortbooks = shortbooks.iloc[np.random.permutation(len(shortbooks))]
-    shortbooks = shortbooks.sample(n=250)
+
+    # Obtain dataset (combining user input ratings with dataset)
+    comb_user_ratings = pd.concat([user_ratings, full_rating])
+    reader = Reader(rating_scale=(1, 5))
+    data = Dataset.load_from_df(comb_user_ratings[['user_id', 'book_id', 'rating']], reader)
+    train, test = train_test_split(data, test_size=0.25)
+
+    # Initialize Singular Value Decomposition algorithm and train on training data
+    algo = SVD()
+    print("training...")
+    algo.fit(train)
+    print("complete")
 
     # Predict user rating of all books in shortbooks dataframe
     for book_id in shortbooks['book_id']:

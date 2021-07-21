@@ -6,7 +6,7 @@ from flask_login import logout_user, current_user, login_required, login_manager
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from Trainer import get_author, getuserID, get_random_title, add_rating, prediction, books
-from flask import Flask, render_template, redirect, url_for, request, session, flash
+from flask import Flask, render_template, redirect, url_for, request, session, flash, make_response
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine
 import pandas as pd
@@ -155,23 +155,35 @@ def second():
     random_title, random_id, imgurl = get_random_title(new_rating['book_id'].to_numpy())
     author = get_author(random_id)
     if request.method == "POST":
-        rating = request.form.get('rating')
-        if rating == "NA":
-            return redirect("/ratebooks")
-        else:
-            random_title, random_id, imgurl = get_random_title(new_rating['book_id'].to_numpy())
-            author = get_author(random_id)
-            new_rating = new_rating.append({"user_id": newId, "book_id": random_id, "rating": rating},
-                                           ignore_index=True)
-            msg = "Rating accepted!  You have submitted " + str(len(new_rating)) + " rating(s)."
-        return render_template("RateBooks.html", msg=msg, title=random_title, author=author, imgurl=imgurl)
+        if request.form['submit'] == 'submit':
+            rating = request.form.get('rating')
+            if rating == "NA":
+                return redirect("/ratebooks")
+            else:
+                random_title, random_id, imgurl = get_random_title(new_rating['book_id'].to_numpy())
+                author = get_author(random_id)
+                new_rating = new_rating.append({"user_id": newId, "book_id": random_id, "rating": rating},
+                                               ignore_index=True)
+                msg = "Rating accepted!  You have submitted " + str(len(new_rating)) + " rating(s)."
+            return render_template("RateBooks.html", msg=msg, title=random_title, author=author, imgurl=imgurl)
+        elif request.form['submit'] == 'getrecs':
+            return redirect('loading')
     return render_template("RateBooks.html", title=random_title, author=author, imgurl=imgurl)
 
 
-# Book recommendaiton screen
+
+@app.route("/loading", methods=["GET", "POST"])
+@login_required
+def loading():
+    return render_template("Loading.html")
+
+
+
+# Book recommendation screen
 @app.route("/recommendations", methods=["GET", "POST"])
 @login_required
 def third():
+    # if request.method == 'GET':
     global title1, title2, title3, title4, title5, title6, title7, title8, title9, title10
     global img1, img2, img3, img4, img5, img6, img7, img8, img9, img10
     global author1, author2, author3, author4, author5, author6, author7, author8, author9, author10
@@ -184,7 +196,7 @@ def third():
                            author6=author6, author7=author7, author8=author8, author9=author9, author10=author10,
                            img1=img1, img2=img2, img3=img3, img4=img4, img5=img5, img6=img6, img7=img7,
                            img8=img8, img9=img9, img10=img10)
-    return redirect("/")
+    # return make_response('POST request successful', 200)
 
 
 # Data visualization dashboard screen
