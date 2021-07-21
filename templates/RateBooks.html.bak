@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>RateBooks</title>
+  </head>
+  <body>
+    <p>Instructions:</p>
+    <p>To help us get to know your reading preferences, we will begin by ranking
+      several books on a scale of 1-5.&nbsp; If you have never read the book,
+      then please select "N/A".</p>
+    <p>We recommend rating about 10 books to allow us to give you the most
+      accurate book recommendations.</p>
+    <p><br>
+    </p>
+    <p> Title: <label form="Title" for="BookTitle">{{ title }}</label></p>
+    <p><label form="Title" for="BookTitle">Author: {{ author }}<br>
+      </label> </p>
+    <p><br>
+    </p>
+    <form action="" method="post">
+      <div class="btn-group">
+        <p><input name="rating" value="1" type="radio">1</p>
+        <p><input name="rating" value="2" type="radio">2</p>
+        <p><input name="rating" value="3" type="radio">3</p>
+        <p><input name="rating" value="4" type="radio">4</p>
+        <p><input name="rating" value="5" type="radio">5</p>
+        <input name="rating" value="NA" checked="checked" type="radio">N/A</div>
+      <div class="btn-group"><br>
+      </div>
+      <div class="btn-group"><br>
+      </div>
+      <p><button name="submit" value="submit">Submit</button></p>
+      <p><button name="cancel" value="cancel">Cancel</button> </p>
+    </form>
+    <button name="recommendations" value="Continue to Recommendations!">Continue
+      to Recommendations</button>
+    <p><br>
+    </p>
+    <p> {% if msg %} </p>
+    <p class="msg">{{ msg }} {% endif %} </p>
+  </body>
+</html>

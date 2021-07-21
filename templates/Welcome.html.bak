@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&amp;display=swap"
+
+      rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <h1>Welcome to Cumulus Books!</h1>
+      <br>
+      <p>Please log in to begin!</p>
+    </div>
+    <form action="/action_page.php">
+      <div style="text-align: center;"><label for="username">Username:</label><input
+
+          id="username" name="username" required="" type="text"></div>
+      <div style="text-align: center;"><label for="password">Password:</label><input
+
+          id="password" name="password" required="" type="text"></div>
+      <div style="text-align: center;"><button type="submit" href = "/ratebooks">Log In</button><button
+
+          type="button" class="cancelbtn">Cancel</button></div>
+    </form>
+    {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+    {% endif %}
+    <style>
+    * {
+        font-family: "Rubik", "sans-serif";
+    }
+    div {
+        text-align: center;
+        margin-top: 50px;
+    }
+    h1 {
+        color: red;
+        font-size: 40pt;
+    }
+    p {
+        font-size: 24pt;
+    }
+</style>
+  </body>
+</html>

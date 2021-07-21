@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Recommendations</title>
+  </head>
+  <body>
+    <p>Based on your book rankings, the following are our top 10 book selections
+      for you!</p>
+    <p>1. <label form="Title" for="Title"></label>{{ title1 }}</p>
+    <p>2. <label form="Title" for="Title"></label>{{ title2 }}</p>
+    <p>3. <label form="Title" for="Title"></label>{{ title3 }}</p>
+    <p>4. <label form="Title" for="Title"></label>{{ title4 }}</p>
+    <p>5. <label form="Title" for="Title"></label>{{ title5 }}</p>
+    <p>6. <label form="Title" for="Title"></label>{{ title6 }}</p>
+    <p>7. <label form="Title" for="Title"></label>{{ title7 }}</p>
+    <p>8. <label form="Title" for="Title"></label>{{ title8 }}</p>
+    <p>9. <label form="Title" for="Title"></label>{{ title9 }}</p>
+    <p>10. <label form="Title" for="Title"></label>{{ title10 }}</p>
+    <p><br>
+    </p>
+  {% if msg %}
+        <p class="msg">{{ msg }}
+  {% endif %}
+  </body>
+</html>

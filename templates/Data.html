@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>Data Dashboard</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&amp;display=swap"
+
+      rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <h1>Data Analytics</h1>
+    </div>
+    <div style="text-align: center;"><a href="landing"><button name="tomainmenu" value="tomainmenu">Return to Main Menu</button> <br>
+        <br>
+      </a>
+    <img src={{ plt1 }} alt="Average Ratings vs Number of Ratings">
+    <img src={{ plt2 }} alt="Top Rated Books and Rating Count">
+    <img src={{ plt3 }} alt="Books with Highest Number of Ratings"></div>
+    <form action="" method="post"><br>
+    </form>
+    {% if error %}
+    <p class="error"><strong>Error:</strong> {{ error }} {% endif %}
+      <style>
+    * {
+        font-family: "Rubik", "sans-serif";
+    }
+    div {
+        text-align: center;
+        margin-top: 50px;
+    }
+    h1 {
+        color: red;
+        font-size: 40pt;
+    }
+    p {
+        font-size: 24pt;
+    }
+</style> </p>
+  </body>
+</html>

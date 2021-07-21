@@ -1,0 +1,157 @@
+21-Jul-21 08:38:04 - werkzeug - INFO - 21-Jul-21 08:38:04 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 08:38:06 - werkzeug - INFO - 21-Jul-21 08:38:06 - 127.0.0.1 - - [21/Jul/2021 08:38:06] "GET / HTTP/1.1" 200 -
+21-Jul-21 08:44:04 - werkzeug - INFO - 21-Jul-21 08:44:04 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 08:44:05 - werkzeug - INFO - 21-Jul-21 08:44:05 - 127.0.0.1 - - [21/Jul/2021 08:44:05] "GET / HTTP/1.1" 200 -
+21-Jul-21 08:44:16 - werkzeug - INFO - 21-Jul-21 08:44:16 - 127.0.0.1 - - [21/Jul/2021 08:44:16] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 08:44:16 - werkzeug - INFO - 21-Jul-21 08:44:16 - 127.0.0.1 - - [21/Jul/2021 08:44:16] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 08:44:19 - werkzeug - INFO - 21-Jul-21 08:44:19 - 127.0.0.1 - - [21/Jul/2021 08:44:19] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:44:21 - werkzeug - INFO - 21-Jul-21 08:44:21 - 127.0.0.1 - - [21/Jul/2021 08:44:21] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:44:21 - werkzeug - INFO - 21-Jul-21 08:44:21 - 127.0.0.1 - - [21/Jul/2021 08:44:21] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:44:22 - werkzeug - INFO - 21-Jul-21 08:44:22 - 127.0.0.1 - - [21/Jul/2021 08:44:22] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:44:23 - werkzeug - INFO - 21-Jul-21 08:44:23 - 127.0.0.1 - - [21/Jul/2021 08:44:23] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:44:24 - werkzeug - INFO - 21-Jul-21 08:44:24 - 127.0.0.1 - - [21/Jul/2021 08:44:24] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:44:25 - werkzeug - INFO - 21-Jul-21 08:44:25 - 127.0.0.1 - - [21/Jul/2021 08:44:25] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:44:26 - werkzeug - INFO - 21-Jul-21 08:44:26 - 127.0.0.1 - - [21/Jul/2021 08:44:26] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:44:27 - werkzeug - INFO - 21-Jul-21 08:44:27 - 127.0.0.1 - - [21/Jul/2021 08:44:27] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:44:28 - werkzeug - INFO - 21-Jul-21 08:44:28 - 127.0.0.1 - - [21/Jul/2021 08:44:28] "[32mPOST /ratebooks HTTP/1.1[0m" 302 -
+21-Jul-21 08:44:28 - werkzeug - INFO - 21-Jul-21 08:44:28 - 127.0.0.1 - - [21/Jul/2021 08:44:28] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:44:30 - werkzeug - INFO - 21-Jul-21 08:44:30 - 127.0.0.1 - - [21/Jul/2021 08:44:30] "[32mPOST /ratebooks HTTP/1.1[0m" 302 -
+21-Jul-21 08:44:30 - werkzeug - INFO - 21-Jul-21 08:44:30 - 127.0.0.1 - - [21/Jul/2021 08:44:30] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:44:31 - werkzeug - INFO - 21-Jul-21 08:44:31 - 127.0.0.1 - - [21/Jul/2021 08:44:31] "[35m[1mGET /recommendations HTTP/1.1[0m" 500 -
+21-Jul-21 08:44:32 - werkzeug - INFO - 21-Jul-21 08:44:32 - 127.0.0.1 - - [21/Jul/2021 08:44:32] "GET /recommendations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jul-21 08:44:32 - werkzeug - INFO - 21-Jul-21 08:44:32 - 127.0.0.1 - - [21/Jul/2021 08:44:32] "GET /recommendations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jul-21 08:44:32 - werkzeug - INFO - 21-Jul-21 08:44:32 - 127.0.0.1 - - [21/Jul/2021 08:44:32] "GET /recommendations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jul-21 08:44:32 - werkzeug - INFO - 21-Jul-21 08:44:32 - 127.0.0.1 - - [21/Jul/2021 08:44:32] "GET /recommendations?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+21-Jul-21 08:44:32 - werkzeug - INFO - 21-Jul-21 08:44:32 - 127.0.0.1 - - [21/Jul/2021 08:44:32] "GET /recommendations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jul-21 08:45:24 - werkzeug - INFO - 21-Jul-21 08:45:24 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 08:45:26 - werkzeug - INFO - 21-Jul-21 08:45:26 - 127.0.0.1 - - [21/Jul/2021 08:45:26] "GET / HTTP/1.1" 200 -
+21-Jul-21 08:46:02 - werkzeug - INFO - 21-Jul-21 08:46:02 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 08:46:04 - werkzeug - INFO - 21-Jul-21 08:46:04 - 127.0.0.1 - - [21/Jul/2021 08:46:04] "GET / HTTP/1.1" 200 -
+21-Jul-21 08:46:05 - werkzeug - INFO - 21-Jul-21 08:46:05 - 127.0.0.1 - - [21/Jul/2021 08:46:05] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 08:46:05 - werkzeug - INFO - 21-Jul-21 08:46:05 - 127.0.0.1 - - [21/Jul/2021 08:46:05] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 08:46:07 - werkzeug - INFO - 21-Jul-21 08:46:07 - 127.0.0.1 - - [21/Jul/2021 08:46:07] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:46:08 - werkzeug - INFO - 21-Jul-21 08:46:08 - 127.0.0.1 - - [21/Jul/2021 08:46:08] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:46:09 - werkzeug - INFO - 21-Jul-21 08:46:09 - 127.0.0.1 - - [21/Jul/2021 08:46:09] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:46:09 - werkzeug - INFO - 21-Jul-21 08:46:09 - 127.0.0.1 - - [21/Jul/2021 08:46:09] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:46:09 - werkzeug - INFO - 21-Jul-21 08:46:09 - 127.0.0.1 - - [21/Jul/2021 08:46:09] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:46:10 - werkzeug - INFO - 21-Jul-21 08:46:10 - 127.0.0.1 - - [21/Jul/2021 08:46:10] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:46:10 - werkzeug - INFO - 21-Jul-21 08:46:10 - 127.0.0.1 - - [21/Jul/2021 08:46:10] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:46:10 - werkzeug - INFO - 21-Jul-21 08:46:10 - 127.0.0.1 - - [21/Jul/2021 08:46:10] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:46:11 - werkzeug - INFO - 21-Jul-21 08:46:11 - 127.0.0.1 - - [21/Jul/2021 08:46:11] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:46:12 - werkzeug - INFO - 21-Jul-21 08:46:12 - 127.0.0.1 - - [21/Jul/2021 08:46:12] "GET /recommendations HTTP/1.1" 200 -
+21-Jul-21 08:47:31 - werkzeug - INFO - 21-Jul-21 08:47:31 - 127.0.0.1 - - [21/Jul/2021 08:47:31] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 08:49:54 - werkzeug - INFO - 21-Jul-21 08:49:54 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 08:49:56 - werkzeug - INFO - 21-Jul-21 08:49:56 - 127.0.0.1 - - [21/Jul/2021 08:49:56] "GET / HTTP/1.1" 200 -
+21-Jul-21 08:49:57 - werkzeug - INFO - 21-Jul-21 08:49:57 - 127.0.0.1 - - [21/Jul/2021 08:49:57] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 08:49:57 - werkzeug - INFO - 21-Jul-21 08:49:57 - 127.0.0.1 - - [21/Jul/2021 08:49:57] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 08:49:59 - werkzeug - INFO - 21-Jul-21 08:49:59 - 127.0.0.1 - - [21/Jul/2021 08:49:59] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:50:01 - werkzeug - INFO - 21-Jul-21 08:50:01 - 127.0.0.1 - - [21/Jul/2021 08:50:01] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:50:02 - werkzeug - INFO - 21-Jul-21 08:50:02 - 127.0.0.1 - - [21/Jul/2021 08:50:02] "GET /recommendations HTTP/1.1" 200 -
+21-Jul-21 08:51:54 - werkzeug - INFO - 21-Jul-21 08:51:54 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 08:51:55 - werkzeug - INFO - 21-Jul-21 08:51:55 - 127.0.0.1 - - [21/Jul/2021 08:51:55] "GET / HTTP/1.1" 200 -
+21-Jul-21 08:51:57 - werkzeug - INFO - 21-Jul-21 08:51:57 - 127.0.0.1 - - [21/Jul/2021 08:51:57] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 08:51:57 - werkzeug - INFO - 21-Jul-21 08:51:57 - 127.0.0.1 - - [21/Jul/2021 08:51:57] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 08:51:59 - werkzeug - INFO - 21-Jul-21 08:51:59 - 127.0.0.1 - - [21/Jul/2021 08:51:59] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:52:00 - werkzeug - INFO - 21-Jul-21 08:52:00 - 127.0.0.1 - - [21/Jul/2021 08:52:00] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:52:01 - werkzeug - INFO - 21-Jul-21 08:52:01 - 127.0.0.1 - - [21/Jul/2021 08:52:01] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 08:52:03 - werkzeug - INFO - 21-Jul-21 08:52:03 - 127.0.0.1 - - [21/Jul/2021 08:52:03] "GET /recommendations HTTP/1.1" 200 -
+21-Jul-21 08:54:29 - werkzeug - INFO - 21-Jul-21 08:54:29 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 08:54:30 - werkzeug - INFO - 21-Jul-21 08:54:30 - 127.0.0.1 - - [21/Jul/2021 08:54:30] "GET / HTTP/1.1" 200 -
+21-Jul-21 08:54:34 - werkzeug - INFO - 21-Jul-21 08:54:34 - 127.0.0.1 - - [21/Jul/2021 08:54:34] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 08:54:34 - werkzeug - INFO - 21-Jul-21 08:54:34 - 127.0.0.1 - - [21/Jul/2021 08:54:34] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 08:54:35 - werkzeug - INFO - 21-Jul-21 08:54:35 - 127.0.0.1 - - [21/Jul/2021 08:54:35] "[32mGET /shutdown HTTP/1.1[0m" 302 -
+21-Jul-21 08:54:35 - werkzeug - INFO - 21-Jul-21 08:54:35 - 127.0.0.1 - - [21/Jul/2021 08:54:35] "GET / HTTP/1.1" 200 -
+21-Jul-21 08:59:54 - werkzeug - INFO - 21-Jul-21 08:59:54 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 08:59:55 - werkzeug - INFO - 21-Jul-21 08:59:55 - 127.0.0.1 - - [21/Jul/2021 08:59:55] "GET / HTTP/1.1" 200 -
+21-Jul-21 08:59:57 - werkzeug - INFO - 21-Jul-21 08:59:57 - 127.0.0.1 - - [21/Jul/2021 08:59:57] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 08:59:57 - werkzeug - INFO - 21-Jul-21 08:59:57 - 127.0.0.1 - - [21/Jul/2021 08:59:57] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 08:59:57 - werkzeug - INFO - 21-Jul-21 08:59:57 - 127.0.0.1 - - [21/Jul/2021 08:59:57] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:00:00 - werkzeug - INFO - 21-Jul-21 09:00:00 - 127.0.0.1 - - [21/Jul/2021 09:00:00] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:00:02 - werkzeug - INFO - 21-Jul-21 09:00:02 - 127.0.0.1 - - [21/Jul/2021 09:00:02] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:00:03 - werkzeug - INFO - 21-Jul-21 09:00:03 - 127.0.0.1 - - [21/Jul/2021 09:00:03] "[35m[1mGET /recommendations HTTP/1.1[0m" 500 -
+21-Jul-21 09:00:03 - werkzeug - INFO - 21-Jul-21 09:00:03 - 127.0.0.1 - - [21/Jul/2021 09:00:03] "GET /recommendations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jul-21 09:00:03 - werkzeug - INFO - 21-Jul-21 09:00:03 - 127.0.0.1 - - [21/Jul/2021 09:00:03] "GET /recommendations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jul-21 09:00:03 - werkzeug - INFO - 21-Jul-21 09:00:03 - 127.0.0.1 - - [21/Jul/2021 09:00:03] "GET /recommendations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jul-21 09:00:03 - werkzeug - INFO - 21-Jul-21 09:00:03 - 127.0.0.1 - - [21/Jul/2021 09:00:03] "GET /recommendations?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+21-Jul-21 09:00:03 - werkzeug - INFO - 21-Jul-21 09:00:03 - 127.0.0.1 - - [21/Jul/2021 09:00:03] "GET /recommendations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jul-21 09:01:44 - werkzeug - INFO - 21-Jul-21 09:01:44 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 09:01:46 - werkzeug - INFO - 21-Jul-21 09:01:46 - 127.0.0.1 - - [21/Jul/2021 09:01:46] "GET / HTTP/1.1" 200 -
+21-Jul-21 09:01:47 - werkzeug - INFO - 21-Jul-21 09:01:47 - 127.0.0.1 - - [21/Jul/2021 09:01:47] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 09:01:47 - werkzeug - INFO - 21-Jul-21 09:01:47 - 127.0.0.1 - - [21/Jul/2021 09:01:47] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 09:01:48 - werkzeug - INFO - 21-Jul-21 09:01:48 - 127.0.0.1 - - [21/Jul/2021 09:01:48] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:01:50 - werkzeug - INFO - 21-Jul-21 09:01:50 - 127.0.0.1 - - [21/Jul/2021 09:01:50] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:01:52 - werkzeug - INFO - 21-Jul-21 09:01:52 - 127.0.0.1 - - [21/Jul/2021 09:01:52] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:01:54 - werkzeug - INFO - 21-Jul-21 09:01:54 - 127.0.0.1 - - [21/Jul/2021 09:01:54] "[35m[1mGET /recommendations HTTP/1.1[0m" 500 -
+21-Jul-21 09:01:54 - werkzeug - INFO - 21-Jul-21 09:01:54 - 127.0.0.1 - - [21/Jul/2021 09:01:54] "GET /recommendations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jul-21 09:01:54 - werkzeug - INFO - 21-Jul-21 09:01:54 - 127.0.0.1 - - [21/Jul/2021 09:01:54] "GET /recommendations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jul-21 09:01:54 - werkzeug - INFO - 21-Jul-21 09:01:54 - 127.0.0.1 - - [21/Jul/2021 09:01:54] "GET /recommendations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jul-21 09:01:54 - werkzeug - INFO - 21-Jul-21 09:01:54 - 127.0.0.1 - - [21/Jul/2021 09:01:54] "GET /recommendations?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+21-Jul-21 09:03:45 - werkzeug - INFO - 21-Jul-21 09:03:45 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 09:03:46 - werkzeug - INFO - 21-Jul-21 09:03:46 - 127.0.0.1 - - [21/Jul/2021 09:03:46] "GET / HTTP/1.1" 200 -
+21-Jul-21 09:03:48 - werkzeug - INFO - 21-Jul-21 09:03:48 - 127.0.0.1 - - [21/Jul/2021 09:03:48] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 09:03:48 - werkzeug - INFO - 21-Jul-21 09:03:48 - 127.0.0.1 - - [21/Jul/2021 09:03:48] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 09:03:48 - werkzeug - INFO - 21-Jul-21 09:03:48 - 127.0.0.1 - - [21/Jul/2021 09:03:48] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:03:50 - werkzeug - INFO - 21-Jul-21 09:03:50 - 127.0.0.1 - - [21/Jul/2021 09:03:50] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:03:52 - werkzeug - INFO - 21-Jul-21 09:03:52 - 127.0.0.1 - - [21/Jul/2021 09:03:52] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:03:53 - werkzeug - INFO - 21-Jul-21 09:03:53 - 127.0.0.1 - - [21/Jul/2021 09:03:53] "[35m[1mGET /recommendations HTTP/1.1[0m" 500 -
+21-Jul-21 09:03:54 - werkzeug - INFO - 21-Jul-21 09:03:54 - 127.0.0.1 - - [21/Jul/2021 09:03:54] "GET /recommendations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jul-21 09:03:54 - werkzeug - INFO - 21-Jul-21 09:03:54 - 127.0.0.1 - - [21/Jul/2021 09:03:54] "GET /recommendations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jul-21 09:03:54 - werkzeug - INFO - 21-Jul-21 09:03:54 - 127.0.0.1 - - [21/Jul/2021 09:03:54] "GET /recommendations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jul-21 09:03:54 - werkzeug - INFO - 21-Jul-21 09:03:54 - 127.0.0.1 - - [21/Jul/2021 09:03:54] "GET /recommendations?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+21-Jul-21 09:04:52 - werkzeug - INFO - 21-Jul-21 09:04:52 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 09:04:53 - werkzeug - INFO - 21-Jul-21 09:04:53 - 127.0.0.1 - - [21/Jul/2021 09:04:53] "GET / HTTP/1.1" 200 -
+21-Jul-21 09:04:55 - werkzeug - INFO - 21-Jul-21 09:04:55 - 127.0.0.1 - - [21/Jul/2021 09:04:55] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 09:04:55 - werkzeug - INFO - 21-Jul-21 09:04:55 - 127.0.0.1 - - [21/Jul/2021 09:04:55] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 09:04:56 - werkzeug - INFO - 21-Jul-21 09:04:56 - 127.0.0.1 - - [21/Jul/2021 09:04:56] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:04:59 - werkzeug - INFO - 21-Jul-21 09:04:59 - 127.0.0.1 - - [21/Jul/2021 09:04:59] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:04:59 - werkzeug - INFO - 21-Jul-21 09:04:59 - 127.0.0.1 - - [21/Jul/2021 09:04:59] "[35m[1mGET /recommendations HTTP/1.1[0m" 500 -
+21-Jul-21 09:05:00 - werkzeug - INFO - 21-Jul-21 09:05:00 - 127.0.0.1 - - [21/Jul/2021 09:05:00] "GET /recommendations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jul-21 09:05:00 - werkzeug - INFO - 21-Jul-21 09:05:00 - 127.0.0.1 - - [21/Jul/2021 09:05:00] "GET /recommendations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jul-21 09:05:00 - werkzeug - INFO - 21-Jul-21 09:05:00 - 127.0.0.1 - - [21/Jul/2021 09:05:00] "GET /recommendations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jul-21 09:05:00 - werkzeug - INFO - 21-Jul-21 09:05:00 - 127.0.0.1 - - [21/Jul/2021 09:05:00] "GET /recommendations?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+21-Jul-21 09:06:28 - werkzeug - INFO - 21-Jul-21 09:06:28 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 09:06:30 - werkzeug - INFO - 21-Jul-21 09:06:30 - 127.0.0.1 - - [21/Jul/2021 09:06:30] "GET / HTTP/1.1" 200 -
+21-Jul-21 09:06:42 - werkzeug - INFO - 21-Jul-21 09:06:42 - 127.0.0.1 - - [21/Jul/2021 09:06:42] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 09:06:42 - werkzeug - INFO - 21-Jul-21 09:06:42 - 127.0.0.1 - - [21/Jul/2021 09:06:42] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 09:06:43 - werkzeug - INFO - 21-Jul-21 09:06:43 - 127.0.0.1 - - [21/Jul/2021 09:06:43] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:06:46 - werkzeug - INFO - 21-Jul-21 09:06:46 - 127.0.0.1 - - [21/Jul/2021 09:06:46] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:06:48 - werkzeug - INFO - 21-Jul-21 09:06:48 - 127.0.0.1 - - [21/Jul/2021 09:06:48] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:06:49 - werkzeug - INFO - 21-Jul-21 09:06:49 - 127.0.0.1 - - [21/Jul/2021 09:06:49] "[35m[1mGET /recommendations HTTP/1.1[0m" 500 -
+21-Jul-21 09:06:49 - werkzeug - INFO - 21-Jul-21 09:06:49 - 127.0.0.1 - - [21/Jul/2021 09:06:49] "GET /recommendations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jul-21 09:06:49 - werkzeug - INFO - 21-Jul-21 09:06:49 - 127.0.0.1 - - [21/Jul/2021 09:06:49] "GET /recommendations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jul-21 09:06:49 - werkzeug - INFO - 21-Jul-21 09:06:49 - 127.0.0.1 - - [21/Jul/2021 09:06:49] "GET /recommendations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jul-21 09:06:49 - werkzeug - INFO - 21-Jul-21 09:06:49 - 127.0.0.1 - - [21/Jul/2021 09:06:49] "GET /recommendations?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+21-Jul-21 09:08:02 - werkzeug - INFO - 21-Jul-21 09:08:02 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 09:08:03 - werkzeug - INFO - 21-Jul-21 09:08:03 - 127.0.0.1 - - [21/Jul/2021 09:08:03] "GET / HTTP/1.1" 200 -
+21-Jul-21 09:08:04 - werkzeug - INFO - 21-Jul-21 09:08:04 - 127.0.0.1 - - [21/Jul/2021 09:08:04] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 09:08:04 - werkzeug - INFO - 21-Jul-21 09:08:04 - 127.0.0.1 - - [21/Jul/2021 09:08:04] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 09:08:06 - werkzeug - INFO - 21-Jul-21 09:08:06 - 127.0.0.1 - - [21/Jul/2021 09:08:06] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:08:08 - werkzeug - INFO - 21-Jul-21 09:08:08 - 127.0.0.1 - - [21/Jul/2021 09:08:08] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:08:12 - werkzeug - INFO - 21-Jul-21 09:08:12 - 127.0.0.1 - - [21/Jul/2021 09:08:12] "GET /recommendations HTTP/1.1" 200 -
+21-Jul-21 09:10:57 - werkzeug - INFO - 21-Jul-21 09:10:57 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+21-Jul-21 09:10:59 - werkzeug - INFO - 21-Jul-21 09:10:59 - 127.0.0.1 - - [21/Jul/2021 09:10:59] "GET / HTTP/1.1" 200 -
+21-Jul-21 09:11:01 - werkzeug - INFO - 21-Jul-21 09:11:01 - 127.0.0.1 - - [21/Jul/2021 09:11:01] "[32mPOST / HTTP/1.1[0m" 302 -
+21-Jul-21 09:11:01 - werkzeug - INFO - 21-Jul-21 09:11:01 - 127.0.0.1 - - [21/Jul/2021 09:11:01] "GET /landing HTTP/1.1" 200 -
+21-Jul-21 09:11:01 - werkzeug - INFO - 21-Jul-21 09:11:01 - 127.0.0.1 - - [21/Jul/2021 09:11:01] "GET /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:11:05 - werkzeug - INFO - 21-Jul-21 09:11:05 - 127.0.0.1 - - [21/Jul/2021 09:11:05] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:11:07 - werkzeug - INFO - 21-Jul-21 09:11:07 - 127.0.0.1 - - [21/Jul/2021 09:11:07] "POST /ratebooks HTTP/1.1" 200 -
+21-Jul-21 09:11:08 - werkzeug - INFO - 21-Jul-21 09:11:08 - 127.0.0.1 - - [21/Jul/2021 09:11:08] "GET /recommendations HTTP/1.1" 200 -
+2021-07-21 09:13:47 - INFO - Top 10 book predictions: [ 1 3 5 ,   1 0 2 9 ,   2 0 9 3 ,   6 7 2 0 ,   5 1 3 7 ,   4 8 0 5 ,   3 1 7 4 ,   1 6 3 0 ,   2 8 6 4 ,   4 7 1 8 ][ ' A   S t o r m   o f   S w o r d s   ( A   S o n g   o f   I c e   a n d   F i r e ,   # 3 ) ' ,   ' S a g a ,   V o l .   1   ( S a g a ,   # 1 ) ' ,   ' T h e   S t a n d :   S o u l   S u r v i v o r s ' ,   ' L o c k e   &   K e y ,   V o l .   4 :   K e y s   t o   t h e   K i n g d o m ' ,   ' S w e e t   D r e a m s   ( C o l o r a d o   M o u n t a i n ,   # 2 ) ' ,   ' K i s s   o f   a   D e m o n   K i n g   ( I m m o r t a l s   A f t e r   D a r k   # 7 ) ' ,   ' M e m o r i e s   o f   I c e   ( T h e   M a l a z a n   B o o k   o f   t h e   F a l l e n ,   # 3 ) ' ,   ' T u r n   C o a t   ( T h e   D r e s d e n   F i l e s ,   # 1 1 ) ' ,   ' K n u f f l e   B u n n y :   A   C a u t i o n a r y   T a l e   ( K n u f f l e   B u n n y ,   # 1 ) ' ,   ' W r i t t e n   i n   R e d   ( T h e   O t h e r s ,   # 1 ) ' ][ 4 . 5 0 0 3 9 8 0 7 0 8 6 0 8 1 9 ,   4 . 4 0 7 4 3 1 8 2 9 0 3 0 1 2 1 ,   4 . 4 0 1 2 8 1 3 2 4 5 5 6 7 7 1 ,   4 . 3 4 4 1 6 2 1 3 8 6 4 6 2 8 1 ,   4 . 3 3 8 1 9 7 9 4 9 3 5 5 2 9 8 ,   4 . 3 3 1 7 6 8 4 7 6 6 3 9 6 5 2 5 ,   4 . 3 1 1 3 3 6 0 8 1 2 9 7 6 8 4 ,   4 . 2 9 9 2 7 0 6 3 5 8 9 6 1 5 1 ,   4 . 2 6 7 9 3 6 3 1 7 9 8 4 0 7 2 ,   4 . 2 6 0 2 7 7 3 3 0 6 7 0 1 5 9 ]
+2021-07-21 09:13:47 - INFO - User input: Ender's Game (Ender's Saga, #1)user_id book_id rating
+2021-07-21 09:16:58 - INFO - Top 10 book predictions: [2093, 1029, 135, 1630, 3174, 4718, 2864, 5137, 472, 709]['The Stand: Soul Survivors', 'Saga, Vol. 1 (Saga, #1)', 'A Storm of Swords (A Song of Ice and Fire, #3)', 'Turn Coat (The Dresden Files, #11)', 'Memories of Ice (The Malazan Book of the Fallen, #3)', 'Written in Red (The Others, #1)', 'Knuffle Bunny: A Cautionary Tale (Knuffle Bunny, #1)', 'Sweet Dreams (Colorado Mountain, #2)', "Man's Search for Meaning", 'Nine Stories'][4.548414546366088, 4.49014587712431, 4.463205509684379, 4.389035567727554, 4.31248116354312, 4.295703142644252, 4.295329867480432, 4.279349097235036, 4.272373230331511, 4.25352868425438]
+2021-07-21 09:16:58 - INFO - User input: To Kill a MockingbirdWater for Elephantsuser_id book_id rating
+2021-07-21 09:21:45 - INFO - Top 10 book predictions: [3885, 3814, 2448, 444, 9578, 1429, 1653, 2039, 4721, 7682]['Born a Crime: Stories From a South African Childhood', 'Black Magic Sanction (The Hollows, #8)', "First Lord's Fury (Codex Alera, #6)", 'Winnie-the-Pooh (Winnie-the-Pooh, #1)', 'Berserk, Vol. 1 (Berserk, #1)', 'Beyond the Shadows (Night Angel, #3)', 'Blood Bound (Mercy Thompson, #2)', 'Blueberries for Sal', 'The Prodigal God: Recovering the Heart of the Christian Faith', 'Friend-Zoned (Friend-Zoned, #1)'][4.565439211190195, 4.375410110560509, 4.36155770794187, 4.323366448668276, 4.29269180182715, 4.291005137160793, 4.290558934091621, 4.28677561089437, 4.282124015975017, 4.26622462820349]
+2021-07-21 09:21:45 - INFO - User input: [ ' T h e   G i r l   o n   t h e   T r a i n ' ,   ' T h e   K i t e   R u n n e r ' ]0         6 1 
+ 1         1 1 
+ N a m e :   b o o k _ i d ,   d t y p e :   o b j e c t0         2 
+ 1         5 
+ N a m e :   r a t i n g ,   d t y p e :   o b j e c t 
+2021-07-21 09:24:28 - INFO - Top 10 book predictions: [1995, 2093, 6527, 3174, 3091, 4718, 1630, 6720, 6655, 6793]['A Storm of Swords: Steel and Snow (A Song of Ice and Fire, #3: Part 1 of 2)', 'The Stand: Soul Survivors', 'Saga, Vol. 6 (Saga, #6)', 'Memories of Ice (The Malazan Book of the Fallen, #3)', 'The Source', 'Written in Red (The Others, #1)', 'Turn Coat (The Dresden Files, #11)', 'Locke & Key, Vol. 4: Keys to the Kingdom', 'The Candymakers (The Candymakers, #1)', 'Glory over Everything: Beyond The Kitchen House'][4.703834167780682, 4.540372061041485, 4.438923403095972, 4.426923876245341, 4.4171521913509535, 4.405097720020015, 4.370053657369044, 4.358692639297898, 4.348231361996627, 4.325375110827682]
+2021-07-21 09:24:28 - INFO - User input: ['The Kite Runner', 'The Girl on the Train'][11 61]['2' '5']
+2021-07-21 09:46:16 - INFO - Top 10 book predictions: [1183, 9712, 9776, 3554, 766, 6585, 684, 817, 6654, 3885]['Attack on Titan, Vol. 1 (Attack on Titan, #1)', 'Magic Binds (Kate Daniels, #9)', 'Seventh Grave and No Body (Charley Davidson, #7)', 'Fueled (Driven, #2)', 'Preludes & Nocturnes (The Sandman #1)', 'Survivor In Death (In Death, #20)', 'The House of Hades (The Heroes of Olympus, #4)', "Howl's Moving Castle (Howl's Moving Castle, #1)", "The Endurance: Shackleton's Legendary Antarctic Expedition", 'Born a Crime: Stories From a South African Childhood'][4.401363355666004, 4.375199978355841, 4.361365129183774, 4.347518179979772, 4.334165371447485, 4.300079914303293, 4.29866826658612, 4.296587443316848, 4.2937574253190816, 4.291458658760287]
+2021-07-21 09:46:16 - INFO - User input: ['Wuthering Heights', 'The Lion, the Witch, and the Wardrobe (Chronicles of Narnia, #1)'][63 37]['2' '4']
+2021-07-21 10:01:20 - INFO - User input: ['The Da Vinci Code (Robert Langdon, #2)', 'Wuthering Heights', 'The Help'][26 63 31]['3' '2' '5']
+2021-07-21 11:26:29 - INFO - Top 10 book predictions: [5019, 2956, 2256, 6720, 4565, 6867, 5646, 1504, 3825, 1]['Jimmy Corrigan, the Smartest Kid on Earth', 'Vampire Academy: The Ultimate Guide (Vampire Academy)', 'Jesus Calling: Enjoying Peace in His Presence', 'Locke & Key, Vol. 4: Keys to the Kingdom', 'The Amazing Maurice and His Educated Rodents (Discworld, #28)', 'Malgudi Days', 'Dream a Little Dream (Chicago Stars, #4)', "The Battle for Skandia (Ranger's Apprentice, #4)", 'Hawkeye, Volume 1: My Life as a Weapon', 'The Hunger Games (The Hunger Games, #1)'][4.397678460054898, 4.390265140324681, 4.376918167760476, 4.335357672860072, 4.298258866434835, 4.2815369616284515, 4.274334436500255, 4.270940223787356, 4.266837729421448, 4.263004843069741]
+2021-07-21 11:26:29 - INFO - User input: ['The Fault in Our Stars'][6]['4']
+2021-07-21 11:27:43 - INFO - Top 10 book predictions: [7537, 389, 6720, 1, 7781, 6039, 3825, 2956, 4705, 9943]['Citizen: An American Lyric', 'The Final Empire (Mistborn, #1)', 'Locke & Key, Vol. 4: Keys to the Kingdom', 'The Hunger Games (The Hunger Games, #1)', 'The Walking Dead, Vol. 09: Here We Remain', 'Eloise ', 'Hawkeye, Volume 1: My Life as a Weapon', 'Vampire Academy: The Ultimate Guide (Vampire Academy)', 'Outpost (Razorland, #2)', 'Sherlock Holmes and the Case of the Hound of the Baskervilles (Illustrated Classic Editions)'][4.384294892940539, 4.364527368918629, 4.34802134583969, 4.3217577976129125, 4.3077975893568485, 4.2798743497454526, 4.2759384105925005, 4.272543358637858, 4.220831007357897, 4.2206775187751]
+2021-07-21 11:27:43 - INFO - User input: ['Night (The Night Trilogy #1)'][87]['3']
